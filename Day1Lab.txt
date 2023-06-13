@@ -1,5 +1,24 @@
+Lab4 - Simple project
+       Dashboard - new item - name(demo1), free style
+                     Build Steps - cd /tmp
+                                   javac Hello.java
+                                   java Hello
+              save, run -> watch error message
+       run 5 times, each time observing the weather
+
+       Create a tmp folder 
+       create tmp/Hello.java 
+              public class Hello{
+                     public static void main(String[] args){
+                            System.out.println("Hello World !!");
+                            }
+              } 
+       For any Build 
+              observe console output
+
 Lab3 - Dashboard - Manage jenkins - Tools -> set jdk, maven (optional, install )
        Dashboard - Manage jenkins -plugins 
+
               Available Plugins -> GitHub plugins     -> select and install without restart
               If error - for offline / connection 
                      setup proxy -> Dashboard -> Manage Jenkins->Plugins ->advanced setting->HTTP Proxy Configuration
