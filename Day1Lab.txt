@@ -1,2 +1,10 @@
+Lab2 - For tomcat (war deployment )- http://localhost:8080/jenkins
+       For msi installation - http://localhost:8080
+
+       Unlock user
+              open the suggested file, copy paste unique id 
+       stop / start service
+       Login - admin, admin
+
 Lab1 - https://martinfowler.com/articles/microservices.html
        https://martinfowler.com/articles/continuousIntegration.html
