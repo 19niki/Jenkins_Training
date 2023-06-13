@@ -1,3 +1,12 @@
+Lab3 - Dashboard - Manage jenkins - Tools -> set jdk, maven (optional, install )
+       Dashboard - Manage jenkins -plugins 
+              Available Plugins -> GitHub plugins     -> select and install without restart
+              If error - for offline / connection 
+                     setup proxy -> Dashboard -> Manage Jenkins->Plugins ->advanced setting->HTTP Proxy Configuration
+              check plugins download once again
+                     installed plugins
+       
+
 Lab2 - For tomcat (war deployment )- http://localhost:8080/jenkins
        For msi installation - http://localhost:8080
 
