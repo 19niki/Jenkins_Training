@@ -3,6 +3,7 @@ Lab5 - git repo
                      Source - git
                             Repo url - https://github.com/Vaishali-Tapaswi/forjenkins
                             Credentials - none
+                            branch - main
                      Build Steps - cd /tmp
                                    javac Hello.java
                                    java Hello
