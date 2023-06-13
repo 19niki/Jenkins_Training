@@ -1,10 +1,28 @@
-Lab5 - git repo
+Lab6 - build trigger modified to scm polling & Trigger builds remotely
+       disable Build periodically
+       Modify build Trigger -> Poll SCM
+              H/3 * * * * 
+       Observe - polling logs
+       Modify github file 
+       Observe - polling logs and build invocation
+
+       Modify build trigger to build remotely
+              give unique name for token
+              copy url 
+       invoke url from other browser-> authenticate run
+
+       Create one more user -> user1
+       invoke url from other browser-> authenticate with user1 
+       Check build history
+      
+
+Lab5 - git repo + build trigger
        Dashboard - new item - name(demo2), free style
                      Source - git
                             Repo url - https://github.com/Vaishali-Tapaswi/forjenkins
                             Credentials - none
                             branch - main
-                     Build Steps - cd /tmp
+                     Build Steps - 
                                    javac Hello.java
                                    java Hello
               save, run, check console output - git repo pull etc
