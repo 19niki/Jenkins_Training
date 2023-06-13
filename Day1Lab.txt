@@ -1,3 +1,19 @@
+Lab5 - git repo
+       Dashboard - new item - name(demo2), free style
+                     Source - git
+                            Repo url - https://github.com/Vaishali-Tapaswi/forjenkins
+                            Credentials - none
+                     Build Steps - cd /tmp
+                                   javac Hello.java
+                                   java Hello
+              save, run, check console output - git repo pull etc
+       Modify demo2 project -> 
+              demo2 -> configure -> Build Triggers - select Build periodically
+                     H/3 * * * *
+       Save, observe -> build happening after every 3 mins.
+       Modify cron entry to build after every 1 min.
+
+
 Lab4 - Simple project
        Dashboard - new item - name(demo1), free style
                      Build Steps - cd /tmp
