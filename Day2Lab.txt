@@ -1,6 +1,9 @@
-Lab5 - Conditional Plugin 
-    write steps for installation of plugin and how to use it
-
+Lab5 -  
+	  Install Conditional BuildStep plugin
+	
+	  demo2 - go to configure
+		  	add conditional steps -> dir 
+		
 Lab4 - install pluggin  - next build number
       select project, right hand side menu - set next build number - 33
       build, and check build number
