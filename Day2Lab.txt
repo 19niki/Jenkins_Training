@@ -1,3 +1,24 @@
+Lab8 - Create new item - demo5pipe - type - pipeline
+      Modify pipeline to invoke mvn clean install package
+      source - https://github.com/Vaishali-Tapaswi/mavendemo
+      create Jenkinsfile 
+Lab7 - install blue ocean 
+    Create new item - demo5pipe - type - pipeline
+      configure - pipeline -> 
+        pipeline {
+            agent any
+            stages {
+                stage('Cleanup Workspace') {
+                    steps {
+                        echo "Cleaned Up Workspace for "
+                    }
+                }  
+        }
+      build -> see errors , check in blue ocean 
+      Modify pipeline -> select from scm  
+        https://github.com/Vaishali-Tapaswi/tmp-01-01/
+      Build -> run, check in blue ocean 
+
 Lab6 - install pipeline plugin
     create new item -> demo4pipe -> type - pipeline
       configure - pipeline -> HelloWorld script 
