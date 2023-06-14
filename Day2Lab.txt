@@ -1,7 +1,9 @@
-Lab8 - Create new item - demo5pipe - type - pipeline
+Lab8 - Create new item - demo6pipe - type - pipeline
       Modify pipeline to invoke mvn clean install package
       source - https://github.com/Vaishali-Tapaswi/mavendemo
       create Jenkinsfile 
+  Solution - https://github.com/Vaishali-Tapaswi/mavendemo
+
 Lab7 - install blue ocean 
     Create new item - demo5pipe - type - pipeline
       configure - pipeline -> 
