@@ -1,3 +1,7 @@
+Lab6 - install pipeline plugin
+    create new item -> demo4pipe -> type - pipeline
+      configure - pipeline -> HelloWorld script 
+      run -> observe
 Lab5 -  
 	  Install Conditional BuildStep plugin
 	
