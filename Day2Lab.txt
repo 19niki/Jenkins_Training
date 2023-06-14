@@ -4,6 +4,9 @@ Lab1 -  install plugin Maven
                             branch - main
                           build trigger
                                 poll scm (every 3 mins)
+                          build 
+                            root POM - pom.xml
+                            Goals and options - clean install package
                           modify post build step
                             java HelloWorld
             Run - check error
