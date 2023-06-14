@@ -1,3 +1,10 @@
+Lab5 - Conditional Plugin 
+    write steps for installation of plugin and how to use it
+
+Lab4 - install pluggin  - next build number
+      select project, right hand side menu - set next build number - 33
+      build, and check build number
+
 Lab3 - Authorization demo
     Create user1, user2 with passwords
         Dashboard ->Manage Jenkins ->users -> create user 
