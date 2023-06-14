@@ -1,0 +1,14 @@
+Lab1 -  install plugin Maven 
+    Create new project -> source - git 
+                            giturl - https://github.com/Vaishali-Tapaswi/mavendemo
+                            branch - main
+                          build trigger
+                                poll scm (every 3 mins)
+                          modify post build step
+                            java HelloWorld
+            Run - check error
+            Modify post build step  
+                cd target/classes
+                java HelloWorld 
+            run - check output
+                          
