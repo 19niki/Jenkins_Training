@@ -1,3 +1,9 @@
+Lab2 - install plugin
+    GitHub Authentication plugin
+    JavaMail
+    Matrix Authorization Strategy Plugin
+    Role-based Authorization Strategy
+
 Lab1 -  install plugin Maven 
     Create new project -> source - git 
                             giturl - https://github.com/Vaishali-Tapaswi/mavendemo
