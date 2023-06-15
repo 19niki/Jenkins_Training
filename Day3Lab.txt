@@ -1,3 +1,7 @@
+Lab4 - See test result and publish artifact
+        https://gitlab.com/vaitap/javademo
+        -> post build 
+
 Lab3 - AWS 
         install plugins - ec2
 
