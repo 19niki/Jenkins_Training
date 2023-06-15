@@ -1,5 +1,5 @@
 Lab4 - See test result and publish artifact
-        https://gitlab.com/vaitap/javademo
+        https://github.com/Vaishali-Tapaswi/JavawithTestcases
         -> post build 
 
 Lab3 - AWS 
