@@ -1,0 +1,6 @@
+https://www.baeldung.com/cs/virtualization-vs-containerization
+
+Lab1 - Jenkins + AWS - https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+       Jenkins + Docker - https://www.jenkins.io/doc/book/pipeline/docker/
+       Jenkins + K8S - https://www.jenkins.io/doc/book/installing/kubernetes/
+
