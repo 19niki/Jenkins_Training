@@ -1,3 +1,5 @@
+Lab3 - AWS 
+        install plugins - ec2
 Lab2 - Jenkins+Docker
         install plugins - docker, docker pipeline 
         create a folder c:\tmp
