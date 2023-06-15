@@ -1,5 +1,38 @@
 Lab3 - AWS 
         install plugins - ec2
+
+        AWS Console -> Login, 
+            create EC2 instance - ubuntu-focal-20.04-amd64-server
+            Create new key pair - 15jun23 (confirm download)
+            Network settings -  allow http traffic from internet
+            Launch Instance 
+            Connect and execute 
+                wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+                sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+                sudo apt update
+                sudo apt install jenkins
+                sudo apt update
+        IAM -> users -> create user - user1
+            Attach policies directly - AdministratorAccess -> create user
+            for user1-> security credentials -> create access key -> CLI
+                generate  -> download and copy details
+
+        Jenkins - to register AWS Instance
+                "Manage Jenkins" > "Configure System" -> "Nodes and Cloud" 
+                         "Add a new cloud" button, and select the "Amazon EC2"
+                    Amazon EC2 Credentials - add -> jenkins
+                            kind - aws Credentials (earlier copied from user creation)
+                                Access Key ID
+                                Secret Access Key
+                    Alternate EC2 Endpoint - public url of ec2 instance
+                    region - of your ec2
+                    EC2 Key Pair's Private Key
+                        add 
+            save
+        and check status 
+        
+
+
 Lab2 - Jenkins+Docker
         install plugins - docker, docker pipeline 
         create a folder c:\tmp
