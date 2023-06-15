@@ -1,8 +1,23 @@
 Lab2 - Jenkins+Docker
         install plugins - docker, docker pipeline 
+        create a folder c:\tmp
+        create dockerfile
+            FROM node:18.16.0-alpine
+            COPY t1.js /
+            EXPOSE 8080
+            CMD ["node", "/t1.js"]
+        create t1.js 
+            var http = require('http');
 
+            //create a server object:
+            http.createServer(function (req, res) {
+            res.write('<body bgcolor="yellow"><h1>Hello World at 11.14!</h1></body>'); //write a response to the client
+            res.end(); //end the response
+            }).listen(8080); //the server object listens on port 8080
         create new items -> name-Demo7docker, freestyle
                 build step ->  windows cmd -> docker run node:18.16.0-alpine  --version
+
+       
         create image 
                 Option1 - directly using windows batch or shell
                     docker run node:18.16.0-alpine  --version
