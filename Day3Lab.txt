@@ -1,3 +1,24 @@
+Lab2 - Jenkins+Docker
+        install plugins - docker, docker pipeline 
+
+        create new items -> name-Demo7docker, freestyle
+                build step ->  windows cmd -> docker run node:18.16.0-alpine  --version
+        create image 
+                Option1 - directly using windows batch or shell
+                    docker run node:18.16.0-alpine  --version
+                    cd /tmp
+                    docker build -t synnode .
+                    docker tag synnode {{uid}}/synnode
+                    docker login -u {{uid}} -p {{token}}
+                    docker push {{uid}}/synnode
+                Option2 - using build step as build/publish docker image
+                    select a folder 
+        run 
+        to confirm
+            check docker hub for new image
+            create a container and check (docker run -p 8080:8080 -d  {{uid}}/synnode )
+    --> copy t1.js and dockerfile in github, modify build trigger to poll github at every 5 mins
+
 https://www.baeldung.com/cs/virtualization-vs-containerization
 
 Lab1 - Jenkins + AWS - https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
