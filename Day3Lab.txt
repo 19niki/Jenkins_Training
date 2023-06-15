@@ -12,6 +12,13 @@ Lab3 - AWS
                 sudo apt update
                 sudo apt install jenkins
                 sudo apt update
+                sudo apt install openjdk-11-jre
+                java -version
+                sudo apt update
+                sudo systemctl enable jenkins
+                sudo systemctl start jenkins
+                sudo systemctl status jenkins
+
         IAM -> users -> create user - user1
             Attach policies directly - AdministratorAccess -> create user
             for user1-> security credentials -> create access key -> CLI
