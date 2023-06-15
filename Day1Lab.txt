@@ -1,3 +1,5 @@
+Vaishali Ma'am email - Vaishali@fandsindia.com
+
 Lab6 - build trigger modified to scm polling & Trigger builds remotely
        disable Build periodically
        Modify build Trigger -> Poll SCM
